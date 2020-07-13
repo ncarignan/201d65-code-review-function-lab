@@ -11,6 +11,10 @@
   files out of sync (branching, vscode, etc)
 
   network graph
+
+  definition of implementation of a function
+  when done with a branch, and back at master, I can still see the branch, is that ok
+  when part way through (On github, merge into my repo master) When I go to master locally, haven't pulled it yet - it says I am up to date but am obviously not
 */
 
 /////////////////////////////////////
@@ -23,7 +27,6 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-  console.log('something');
   var theSum = a + b;
   var theString = 'The sum of ' + a +' and ' + b +' is ' +theSum +'.';
 
