@@ -1,20 +1,24 @@
 'use strict';
 
 /*
+files out of sync (branching, vscode, etc)
+what is difference between `git branch` and `git checkout -b branch`
+git branch is the ls of branches, git checkout -b branch is the touch of branches
+when done with a branch, and back at master, I can still see the branch, is that ok
+when part way through (On github, merge into my repo master) When I go to master locally, haven't pulled it yet - it says I am up to date but am obviously not
+network graph
+
   3 - 6
-  what is difference between `git branch` and `git checkout -b branch`
+
+
   eslint disable next line
   console logs, everything was running double
 
   some hard because of the exactness of the string
 
-  files out of sync (branching, vscode, etc)
 
-  network graph
 
   definition of implementation of a function
-  when done with a branch, and back at master, I can still see the branch, is that ok
-  when part way through (On github, merge into my repo master) When I go to master locally, haven't pulled it yet - it says I am up to date but am obviously not
 */
 
 /////////////////////////////////////
