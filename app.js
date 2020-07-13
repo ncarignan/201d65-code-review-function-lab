@@ -7,17 +7,13 @@ git branch is the ls of branches, git checkout -b branch is the touch of branche
 when done with a branch, and back at master, I can still see the branch, is that ok
 when part way through (On github, merge into my repo master) When I go to master locally, haven't pulled it yet - it says I am up to date but am obviously not
 network graph
+console logs, everything was running double
+eslint disable next line
+
+
 
   3 - 6
-
-
-  eslint disable next line
-  console logs, everything was running double
-
   some hard because of the exactness of the string
-
-
-
   definition of implementation of a function
 */
 
@@ -53,11 +49,11 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-
+  return [a * b, 'The product of ' + 5 + ' and ' + 9 + ' is ' + 45 + '.'];
 }
 
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+testMultiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
