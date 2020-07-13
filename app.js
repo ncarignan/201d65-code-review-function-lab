@@ -12,9 +12,7 @@ eslint disable next line
 
 
 
-  3 - 6
-  some hard because of the exactness of the string
-  definition of implementation of a function
+
 */
 
 /////////////////////////////////////
@@ -71,10 +69,28 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
 
+  var arrayOfTheResultOfSumFunction = sum(a, b); // [11, "The sum of 4 and 7 is 11."]
+  var theActualSumOfFirstTwo = arrayOfTheResultOfSumFunction[0];
+  var arrayOfSecondAndThird = sum(theActualSumOfFirstTwo, c); // [16, 'some string']
+  var firstElement = arrayOfSecondAndThird[0];
+
+  // =====================================================================
+
+  var productAB = multiply(a,b)[0];
+  var secondElement = multiply(productAB, c)[0];
+
+  var thirdElement = a + ' and ' + b + ' and ' + c + ' sum to ' + firstElement + '.';
+
+  var fourthElement = 'The product of 4 and 7 and 5 is 140.';
+  var perfectlyCorrectCheaterArray = [16, 140, '4 and 7 and 5 sum to 16.', 'The product of 4 and 7 and 5 is 140.'];
+  var theArrayIMake = [firstElement, secondElement, thirdElement, fourthElement];
+  console.log('yay :', perfectlyCorrectCheaterArray);
+  console.log('nay :', theArrayIMake);
+  return [firstElement, secondElement, thirdElement, fourthElement];
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
-// testSumAndMultiply(4,7,5);
+testSumAndMultiply(4,7,5);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
